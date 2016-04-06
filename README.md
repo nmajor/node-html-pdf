@@ -108,7 +108,8 @@ config = {
   },
   "footer": {
     "height": "28mm",
-    "contents": '<span style="color: #444;">{{page}}</span>/<span>{{pages}}</span>'
+    "pageOffset": 5,
+    "contents": '<span style="color: #444;">{{page}}</span>/<span>{{pages}} Offset Page: {{offsetPage}}</span>'
   },
 
 
